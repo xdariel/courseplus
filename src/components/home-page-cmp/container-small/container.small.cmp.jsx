@@ -8,25 +8,25 @@ const ContainerSmall = () => {
 			<div className="uk-child-width-1-4@m uk-visible@m uk-text-center uk-text-bold uk-margin-xlarge-bottom uk-margin-large-top" uk-scrollspy="cls: uk-animation-scale-up; target: > div ; delay: 100;repeat:true" uk-grid="true">
 				<div>
 					<div className="uk-card-default uk-card-hover uk-card-body rounded-lg  animate-this">
-						<img src="assets/images/demos/demo-home-icon-ready.png" className="scale-up-medium mb-3" width="100" alt="" />
+						<img alt="" src="assets/images/demos/demo-home-icon-ready.png" className="scale-up-medium mb-3" width="100"  />
 						<p> Ready to use </p>
 					</div>
 				</div>
 				<div>
 					<div className="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
-						<img src="assets/images/demos/demo-home-icon-ui.png" className="scale-up-medium mb-3" width="100" alt="" />
+						<img alt="" src="assets/images/demos/demo-home-icon-ui.png" className="scale-up-medium mb-3" width="100"  />
 						<p> Premium UI </p>
 					</div>
 				</div>
 				<div>
 					<div className="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
-						<img src="assets/images/demos/demo-home-icon-responsive.png" className="scale-up-medium mb-3" width="100" alt="" />
+						<img alt="" src="assets/images/demos/demo-home-icon-responsive.png" className="scale-up-medium mb-3" width="100"  />
 						<p>  Responsive </p>
 					</div>
 				</div>
 				<div>
 					<div className="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
-						<img src="assets/images/demos/demo-home-icon-fast.png" className="animate-this mb-3" width="100" alt="" />
+						<img alt="" src="assets/images/demos/demo-home-icon-fast.png" className="animate-this mb-3" width="100"  />
 						<p> Time Saving</p>
 					</div>
 				</div>

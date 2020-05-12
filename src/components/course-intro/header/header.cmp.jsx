@@ -18,14 +18,14 @@ const Header = () => {
 						</span>
 						{/* logo */}
 						<a href="dashboard.html" className="logo">
-							<img src="assets/images/logo-dark.svg" alt="" />
+							<img alt="" src="assets/images/logo-dark.svg"  />
 							<span> Courseplus</span>
 						</a>
 						{/* Main Navigation */}
 						<nav id="navigation">
 							<ul id="responsive">
-								<li><a href="#">Home</a> </li>
-								<li><a href="#">Explore</a>
+								<li><a >Home</a> </li>
+								<li><a >Explore</a>
 									<ul className="dropdown-nav nav-large nav-courses">
 										<li><a href="course-card.html#">
 											<i className="icon-brand-js-square" style={{ color: '#f7df1e' }} /> JavaScript
@@ -53,13 +53,13 @@ const Header = () => {
 								<li><a href="course-path.html" className="nav-active">Track</a> </li>
 								<li><a href="book.html">Book</a> </li>
 								<li><a href="blog-1.html">Blog</a> </li>
-								<li><a href="#">Pages</a>
+								<li><a >Pages</a>
 									<ul className="dropdown-nav">
 										<li><a href="page-pricing.html">Pricing</a> </li>
 										<li><a href="page-Privacy.html">Privacy</a></li>
 										<li><a href="page-term.html">Terms</a></li>
 										<li><a href="page-contact.html">Contact</a></li>
-										<li><a href="#">Account</a>
+										<li><a >Account</a>
 											<ul className="dropdown-nav">
 												<li><a href="page-login.html">login</a></li>
 												<li><a href="page-register.html">register</a></li>
@@ -67,7 +67,7 @@ const Header = () => {
 												<li><a href="page-simple-register.html">Simple register</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Development</a>
+										<li><a >Development</a>
 											<ul className="dropdown-nav">
 												<li><a href="page-elements.html">Elements</a></li>
 												<li><a href="page-components.html">Components</a></li>
@@ -122,7 +122,7 @@ const Header = () => {
 							</div>
 							{/* User icons close mobile*/}
 							<span className="icon-feather-x icon-small uk-hidden@s" uk-toggle="target: .header-widget ; cls: is-active"> </span>
-							<a href="#" className="header-widget-icon" uk-tooltip="title: My Courses ; pos: bottom ;offset:21">
+							<a  className="header-widget-icon" uk-tooltip="title: My Courses ; pos: bottom ;offset:21">
 								<i className="uil-youtube-alt" />
 							</a>
 							{/* courses dropdown List */}
@@ -130,7 +130,7 @@ const Header = () => {
 								{/* notivication header */}
 								<div className="dropdown-notifications-headline">
 									<h4>Your Courses</h4>
-									<a href="#">
+									<a >
 										<i className="icon-feather-settings" uk-tooltip="title: Notifications settings ; pos: left" />
 									</a>
 								</div>
@@ -141,7 +141,7 @@ const Header = () => {
 										<li className="notifications-not-read">
 											<a href="course-intro.html">
 												<span className="notification-image">
-													<img src="assets/images/course/1.png" alt="" /> </span>
+													<img alt="" src="assets/images/course/1.png"  /> </span>
 												<span className="notification-text">
 													<span className="course-title">Ultimate Web Designer &amp; Web Developer
 																</span>
@@ -178,7 +178,7 @@ const Header = () => {
 										<li>
 											<a href="course-intro.html">
 												<span className="notification-image">
-													<img src="assets/images/course/3.png" alt="" /> </span>
+													<img alt="" src="assets/images/course/3.png"  /> </span>
 												<span className="notification-text">
 													<span className="course-title">The Complete JavaScript Course Build Real
 																	Projects !</span>
@@ -215,7 +215,7 @@ const Header = () => {
 										<li>
 											<a href="course-intro.html">
 												<span className="notification-image">
-													<img src="assets/images/course/2.png" alt="" /> </span>
+													<img alt="" src="assets/images/course/2.png"  /> </span>
 												<span className="notification-text">
 													<span className="course-title">Learn Angular Fundamentals From The
 																	Beginning</span>
@@ -252,7 +252,7 @@ const Header = () => {
 										<li>
 											<a href="course-intro.html">
 												<span className="notification-image">
-													<img src="assets/images/course/1.png" alt="" /> </span>
+													<img alt="" src="assets/images/course/1.png"  /> </span>
 												<span className="notification-text">
 													<span className="course-title">Ultimate Web Designer &amp; Web Developer
 																</span>
@@ -289,11 +289,11 @@ const Header = () => {
 									</ul>
 								</div>
 								<div className="dropdown-notifications-footer">
-									<a href="#"> sell all</a>
+									<a > sell all</a>
 								</div>
 							</div>
 							{/* notificiation icon  */}
-							<a href="#" className="header-widget-icon" uk-tooltip="title: Notificiation ; pos: bottom ;offset:21">
+							<a  className="header-widget-icon" uk-tooltip="title: Notificiation ; pos: bottom ;offset:21">
 								<i className="uil-bell" />
 								<span>4</span>
 							</a>
@@ -302,7 +302,7 @@ const Header = () => {
 								{/* notivication header */}
 								<div className="dropdown-notifications-headline">
 									<h4>Notifications </h4>
-									<a href="#">
+									<a >
 										<i className="icon-feather-settings" uk-tooltip="title: Notifications settings ; pos: left" />
 									</a>
 								</div>
@@ -311,7 +311,7 @@ const Header = () => {
 									{/* notiviation list */}
 									<ul>
 										<li className="notifications-not-read">
-											<a href="#">
+											<a >
 												<span className="notification-icon btn btn-soft-danger disabled">
 													<i className="icon-feather-thumbs-up" /></span>
 												<span className="notification-text">
@@ -322,7 +322,7 @@ const Header = () => {
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a >
 												<span className="notification-icon btn btn-soft-primary disabled">
 													<i className="icon-feather-message-circle" /></span>
 												<span className="notification-text">
@@ -333,7 +333,7 @@ const Header = () => {
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a >
 												<span className="notification-icon btn btn-soft-success disabled">
 													<i className="icon-feather-star" /></span>
 												<span className="notification-text">
@@ -344,7 +344,7 @@ const Header = () => {
 											</a>
 										</li>
 										<li className="notifications-not-read">
-											<a href="#">
+											<a >
 												<span className="notification-icon btn btn-soft-danger disabled">
 													<i className="icon-feather-share-2" /></span>
 												<span className="notification-text">
@@ -358,7 +358,7 @@ const Header = () => {
 								</div>
 							</div>
 							{/* Message  */}
-							<a href="#" className="header-widget-icon" uk-tooltip="title: Message ; pos: bottom ;offset:21">
+							<a  className="header-widget-icon" uk-tooltip="title: Message ; pos: bottom ;offset:21">
 								<i className="uil-envelope-alt" />
 								<span>1</span>
 							</a>
@@ -367,7 +367,7 @@ const Header = () => {
 								{/* notivication header */}
 								<div className="dropdown-notifications-headline">
 									<h4>Messages</h4>
-									<a href="#">
+									<a >
 										<i className="icon-feather-settings" uk-tooltip="title: Message settings ; pos: left" />
 									</a>
 								</div>
@@ -376,9 +376,9 @@ const Header = () => {
 									{/* notiviation list */}
 									<ul>
 										<li className="notifications-not-read">
-											<a href="#">
+											<a >
 												<span className="notification-avatar">
-													<img src="assets/images/avatars/avatar-2.jpg" alt="" />
+													<img alt="" src="assets/images/avatars/avatar-2.jpg"  />
 												</span>
 												<div className="notification-text notification-msg-text">
 													<strong>Jonathan Madano</strong>
@@ -389,9 +389,9 @@ const Header = () => {
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a >
 												<span className="notification-avatar">
-													<img src="assets/images/avatars/avatar-3.jpg" alt="" />
+													<img alt="" src="assets/images/avatars/avatar-3.jpg"  />
 												</span>
 												<div className="notification-text notification-msg-text">
 													<strong>Stella Johnson</strong>
@@ -402,9 +402,9 @@ const Header = () => {
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a >
 												<span className="notification-avatar">
-													<img src="assets/images/avatars/avatar-1.jpg" alt="" />
+													<img alt="" src="assets/images/avatars/avatar-1.jpg"  />
 												</span>
 												<div className="notification-text notification-msg-text">
 													<strong>Alex Dolgove</strong>
@@ -415,9 +415,9 @@ const Header = () => {
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a >
 												<span className="notification-avatar">
-													<img src="assets/images/avatars/avatar-4.jpg" alt="" />
+													<img alt="" src="assets/images/avatars/avatar-4.jpg"  />
 												</span>
 												<div className="notification-text notification-msg-text">
 													<strong>Adrian Mohani</strong>
@@ -430,19 +430,19 @@ const Header = () => {
 									</ul>
 								</div>
 								<div className="dropdown-notifications-footer">
-									<a href="#"> sell all <i className="icon-line-awesome-long-arrow-right" /> </a>
+									<a > sell all <i className="icon-line-awesome-long-arrow-right" /> </a>
 								</div>
 							</div>
 							{/* profile-icon*/}
-							<a href="#" className="header-widget-icon profile-icon">
-								<img src="assets/images/avatars/avatar-2.jpg" alt="" className="header-profile-icon" />
+							<a  className="header-widget-icon profile-icon">
+								<img alt="" src="assets/images/avatars/avatar-2.jpg"  className="header-profile-icon" />
 							</a>
 							<div uk-dropdown="pos: top-right ;mode:click" className="dropdown-notifications small">
 								{/* User Name / Avatar */}
 								<a href="profile-1.html">
 									<div className="dropdown-user-details">
 										<div className="dropdown-user-avatar">
-											<img src="assets/images/avatars/avatar-2.jpg" alt="" />
+											<img alt="" src="assets/images/avatars/avatar-2.jpg"  />
 										</div>
 										<div className="dropdown-user-name">
 											Richard Ali <span>Students</span>
@@ -452,20 +452,20 @@ const Header = () => {
 								{/* User menu */}
 								<ul className="dropdown-user-menu">
 									<li>
-										<a href="#">
+										<a >
 											<i className="icon-material-outline-dashboard" /> Dashboard</a>
 									</li>
-									<li><a href="#">
+									<li><a >
 										<i className="icon-feather-bookmark" /> Bookmark </a>
 									</li>
 									<li><a href="profile-edit.html">
 										<i className="icon-feather-settings" /> Account Settings</a>
 									</li>
-									<li><a href="#" style={{ color: '#62d76b' }}>
+									<li><a  style={{ color: '#62d76b' }}>
 										<i className="icon-feather-star" /> Upgrade To Premium</a>
 									</li>
 									<li>
-										<a href="#" id="night-mode" className="btn-night-mode">
+										<a  id="night-mode" className="btn-night-mode">
 											<i className="icon-feather-moon" /> Night mode
 														<span className="btn-night-mode-switch">
 												<span className="uk-switch-button" />
@@ -473,7 +473,7 @@ const Header = () => {
 										</a>
 									</li>
 									<li className="menu-divider">
-									</li><li><a href="#">
+									</li><li><a >
 										<i className="icon-feather-help-circle" /> Help</a>
 									</li>
 									<li><a href="page-login.html">
@@ -483,11 +483,11 @@ const Header = () => {
 							</div>
 						</div>
 						{/* icon search*/}
-						<a className="uk-navbar-toggle uk-hidden@s" uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#">
+						<a className="uk-navbar-toggle uk-hidden@s" uk-toggle="target: .nav-overlay; animation: uk-animation-fade" >
 							<i className="uil-search icon-small" />
 						</a>
 						{/* User icons */}
-						<a href="#" className="uil-user icon-small uk-hidden@s" uk-toggle="target: .header-widget ; cls: is-active">
+						<a  className="uil-user icon-small uk-hidden@s" uk-toggle="target: .header-widget ; cls: is-active">
 						</a>
 					</div>
 					{/* End Right Side Content / End */}

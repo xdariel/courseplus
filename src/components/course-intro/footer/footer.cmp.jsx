@@ -29,8 +29,8 @@ const Footer = () => {
 						<h5> Account </h5>
 						<ul>
 							<li><a href="profile-1.html"> Profile </a></li>
-							<li><a href="#"> Settings </a></li>
-							<li><a href="#"> Projects </a></li>
+							<li><a > Settings </a></li>
+							<li><a > Projects </a></li>
 						</ul>
 					</div>
 				</div>
@@ -38,7 +38,7 @@ const Footer = () => {
 					<div className="footer-links pl-lg-8">
 						<h5> Resources</h5>
 						<ul>
-							<li><a href="#"> Contact </a></li>
+							<li><a > Contact </a></li>
 							<li><a href="page-Privacy.html"> Privacy Policy </a></li>
 							<li><a href="page-term.html"> Terms of Use </a></li>
 						</ul>
@@ -53,10 +53,10 @@ const Footer = () => {
 				<div className="uk-width-auto@s">
 					<nav className="footer-nav-icon">
 						<ul>
-							<li><a href="#"><i className="icon-brand-facebook" /></a></li>
-							<li><a href="#"><i className="icon-brand-dribbble" /></a></li>
-							<li><a href="#"><i className="icon-brand-youtube" /></a></li>
-							<li><a href="#"><i className="icon-brand-twitter" /></a></li>
+							<li><a ><i className="icon-brand-facebook" /></a></li>
+							<li><a ><i className="icon-brand-dribbble" /></a></li>
+							<li><a ><i className="icon-brand-youtube" /></a></li>
+							<li><a ><i className="icon-brand-twitter" /></a></li>
 						</ul>
 					</nav>
 				</div>

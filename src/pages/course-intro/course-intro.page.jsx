@@ -5,16 +5,16 @@ import OverlaySearch from '../../components/course-intro/overlay-search-mobile/o
 import Content from '../../components/course-intro/content/content.cmp';
 import Footer from '../../components/course-intro/footer/footer.cmp';
 
-class CourseIntro2Page extends React.Component {
+class CourseIntroPage extends React.Component {
 
 	render() {
 		return (<div id="wrapper">
-			<Header />
-			<OverlaySearch />
-			<Content courseIntroId="course-intro-2" />
-			<Footer />
-		</div>);
+		<Header />
+		<OverlaySearch />
+		<Content courseIntroId="course-intro" />
+		<Footer />
+	</div>);
 	}
 }
 
-export default CourseIntro2Page;
+export default CourseIntroPage;

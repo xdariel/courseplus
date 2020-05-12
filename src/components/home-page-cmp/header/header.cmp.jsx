@@ -16,7 +16,7 @@ const Header = () => {
 							<li><a href="#feature">Feature</a> </li>
 							<li><a href="#faq">FAQ</a> </li>
 						</ul>
-						<a href="#" className="btn btn-default transition-3d-hover ml-3"> BUY NOW</a>
+						<a  className="btn btn-default transition-3d-hover ml-3"> BUY NOW</a>
 					</div>
 				</nav>
 			</div>

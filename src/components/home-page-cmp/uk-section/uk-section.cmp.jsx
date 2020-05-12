@@ -16,7 +16,7 @@ const UkSection = () => {
 					<div>
 
 						<div className="uk-card-default uk-inline-clip">
-							<img src="assets/images/demos/d-default.png" alt="" />
+							<img alt="" src="assets/images/demos/d-default.png"  />
 							<div className="uk-flex uk-flex-between uk-flex-middle p-2 px-3">
 								<h5 className="mb-0"> Default layout</h5>
 								<div className="buttons">
@@ -30,7 +30,7 @@ const UkSection = () => {
 					</div>
 					<div>
 						<div className="uk-card-default rounded uk-inline-clip">
-							<img src="assets/images/demos/d-horizontal.png" alt="" />
+							<img alt="" src="assets/images/demos/d-horizontal.png"  />
 							<div className="uk-flex uk-flex-between uk-flex-middle p-2 px-3">
 								<h5 className="mb-0"> horizontal layout</h5>
 								<div className="buttons">
@@ -45,7 +45,7 @@ const UkSection = () => {
 					<div>
 
 						<div className="uk-card-default rounded uk-inline-clip">
-							<img src="assets/images/demos/d-admin.png" alt="" />
+							<img alt="" src="assets/images/demos/d-admin.png"  />
 							<div className="uk-flex uk-flex-between uk-flex-middle p-2 px-3">
 								<h5 className="mb-0"> Admin section</h5>
 								<div className="buttons">
