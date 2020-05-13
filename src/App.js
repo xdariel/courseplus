@@ -12,7 +12,6 @@ function App() {
         <Route path='/course-intro' component={CourseIntroPage} />
         <Route path='/course-intro-2' component={CourseIntro2Page} />
       </HashRouter>
-
     </div>
   );
 }

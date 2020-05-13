@@ -4,7 +4,7 @@ const Header = () => {
 		<div className="main-header header-transparent uk-light"
 			uk-sticky="top: 100 ;animation: uk-animation-slide-top ;cls-inactive: header-transparent uk-light">
 			<div className="page-content-inner pt-0">
-				<nav uk-navbar="true">
+				<nav uk-navbar="">
 					<div className="uk-navbar-left">
 
 						<div id="logo"> <i className="uil-graduation-hat"></i> Courseplus</div>

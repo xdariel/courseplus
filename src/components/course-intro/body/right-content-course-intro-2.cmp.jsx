@@ -1,12 +1,12 @@
 import React from 'react';
 
-const LeftContentCourseIntro2 = () => {
+const RightContentCourseIntro2 = () => {
 
 	return (<div className="uk-width-expand">
 		<h4 className="mt-5 mb-4"> Related Courses</h4>
-		<div className="uk-child-width-1-1 mt-3" uk-grid="true">
+		<div className="uk-child-width-1-1 mt-3" uk-grid="">
 			<div>
-				<a href="course-intro.html">
+				<a href="#/course-intro">
 					<div className="course-card">
 						<div className="course-card-thumbnail ">
 							<img alt="" src="assets/images/course/2.png" />
@@ -32,7 +32,7 @@ const LeftContentCourseIntro2 = () => {
 				</a>
 			</div>
 			<div>
-				<a href="course-intro.html">
+				<a href="#/course-intro">
 					<div className="course-card">
 						<div className="course-card-thumbnail ">
 							<img alt="" src="assets/images/course/3.png" />
@@ -61,4 +61,4 @@ const LeftContentCourseIntro2 = () => {
 	</div>)
 }
 
-export default LeftContentCourseIntro2;
+export default RightContentCourseIntro2;

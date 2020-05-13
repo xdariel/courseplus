@@ -1,5 +1,5 @@
 import React from 'react';
-const UkSectionMuted = () => {
+const Footer = () => {
     return (
         <div className="uk-section uk-section-muted pb-2">
             <div className="uk-container uk-align-center uk-margin-remove-bottom uk-position-relative uk-margin-medium-top">
@@ -92,4 +92,4 @@ const UkSectionMuted = () => {
         </div>);
 }
 
-export default UkSectionMuted;
+export default Footer;

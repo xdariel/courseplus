@@ -1,5 +1,5 @@
 import React from 'react';
-const UkSectionPrimary = () => {
+const FrameworkSection = () => {
     return (
         <div className="uk-section uk-section-primary ">
             <div className="uk-container-small uk-padding-small uk-margin-auto">
@@ -37,4 +37,4 @@ const UkSectionPrimary = () => {
         </div>);
 }
 
-export default UkSectionPrimary;
+export default FrameworkSection;

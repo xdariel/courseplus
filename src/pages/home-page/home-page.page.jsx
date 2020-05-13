@@ -1,22 +1,24 @@
 import React from 'react';
 
-import Header from '../../components/home-page-cmp/header/header.cmp';
-import DiagonalHero from '../../components/home-page-cmp/diagonal-hero/diagonal-hero.cmp';
-import ContainerSmall from '../../components/home-page-cmp/container-small/container.small.cmp';
-import UkSection from '../../components/home-page-cmp/uk-section/uk-section.cmp';
-import UkSectionPrimary from '../../components/home-page-cmp/uk-section-primary/uk-section-primary.cmp';
-import UkSectionMuted from '../../components/home-page-cmp/uk-section-muted/uk-section-muted.cmp';
+import Header from '../../components/home-page/header/header.cmp';
+import LMSSketch from '../../components/home-page/body/lms-sketch.cmp';
+import JumpstartProjects from '../../components/home-page/body/jumpstart-projects.cmp';
+import DemoSection from '../../components/home-page/body/demo-section.cmp';
+import FrameworkSection from '../../components/home-page/body/framework-section.cmp';
+import Footer from '../../components/home-page/footer/footer.cmp';
 
 class HomePage extends React.Component {
 
 	render() {
-		return (<div>			
+		return (<div>
 			<Header />
-			<DiagonalHero />
-			<ContainerSmall />
-			<UkSection />
-			<UkSectionPrimary />
-			<UkSectionMuted />
+			{/*<Body> */}
+			<LMSSketch />
+			<JumpstartProjects />
+			<DemoSection />
+			<FrameworkSection />
+			{/*</Body> */}
+			<Footer />
 		</div>);
 	}
 }

@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
 	return (<div className = "footer" >
 		<div className="container">
-			<div uk-grid="true">
+			<div uk-grid="">
 				<div className="uk-width-1-3@m">
 					<a href="home.html" className="uk-logo">
 						{/* logo icon */}
@@ -46,7 +46,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<hr />
-			<div className="uk-grid-collapse" uk-grid="true">
+			<div className="uk-grid-collapse" uk-grid="">
 				<div className="uk-width-expand@s uk-first-column">
 					<p>© 2020 <strong>Courseplus</strong>. All Rights Reserved. </p>
 				</div>

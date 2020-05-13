@@ -1,5 +1,5 @@
 import React from 'react';
-const DiagonalHero = () => {
+const LMSSketch = () => {
 	return (<div className="diagonal-hero-bg uk-light" id="main_wrapper">
 		<div className="diagonal-hero-innr">
 			<div className="stars uk-flex" style={{ 'marginBottom': '10%' }}>
@@ -21,4 +21,4 @@ const DiagonalHero = () => {
 	</div>);
 }
 
-export default DiagonalHero;
+export default LMSSketch;

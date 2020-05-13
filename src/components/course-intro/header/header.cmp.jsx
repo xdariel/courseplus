@@ -5,7 +5,7 @@ const Header = () => {
 
 		<header className="header header-horizontal">
 			<div className="container">
-				<nav uk-navbar="true">
+				<nav uk-navbar="">
 					{/* left Side Content */}
 					<div className="uk-navbar-left">
 						{/* menu icon */}

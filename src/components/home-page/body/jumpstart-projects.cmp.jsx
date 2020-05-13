@@ -1,5 +1,5 @@
 import React from 'react';
-const ContainerSmall = () => {
+const JumpstartProjects = () => {
 	return (
 		<div className="container-small" style={{ 'marginTop': '-20px' }}>
 			<h2 className="uk-text-center uk-margin-remove-adjacent uk-margin-remove-bottom" uk-scrollspy="cls:uk-animation-fade"> Jumpstart your Projects</h2>
@@ -35,4 +35,4 @@ const ContainerSmall = () => {
 		</div>);
 }
 
-export default ContainerSmall;
+export default JumpstartProjects;

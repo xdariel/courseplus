@@ -1,9 +1,7 @@
 import React from 'react';
-import LeftContentCourseIntro2 from './left-content-course-intro-2.cmp';
-import LeftContentCourseIntro from './left-content-course-intro.cmp';
+import RightContentCourseIntro2 from './right-content-course-intro-2.cmp';
+import RightContentCourseIntro from './right-content-course-intro.cmp';
 import VideoDemo from './video-demo.cmp';
-
-
 
 const Content = (props) => {
   let leftContent = null;
@@ -11,12 +9,12 @@ const Content = (props) => {
 
   switch (props.courseIntroId) {
     case 'course-intro-2':
-      leftContent = <LeftContentCourseIntro2 />;
+      leftContent = <RightContentCourseIntro2 />;
       videoDemo = <VideoDemo />;
       break;
 
       case 'course-intro':
-        leftContent = <LeftContentCourseIntro />;
+        leftContent = <RightContentCourseIntro />;
       break;
       
       default:
@@ -31,7 +29,7 @@ const Content = (props) => {
       <div className="course-details-wrapper topic-1 uk-light">
          
         <div className="page-content-inner pt-lg-8 pb-0">
-          <div className="mb-lg-5" uk-grid="true">
+          <div className="mb-lg-5" uk-grid="">
             
             {videoDemo}
             
@@ -79,7 +77,7 @@ const Content = (props) => {
         </div>
       </div>
       <div className="page-content-inner">
-        <div className="uk-grid-large" uk-grid="true">
+        <div className="uk-grid-large" uk-grid="">
           <div className="uk-width-2-3@m">
             <ul id="course-intro-tab" className="uk-switcher mt-4">
               {/* course description */}
@@ -94,7 +92,7 @@ const Content = (props) => {
                   dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
                     exerci</p>
                 <h4> What you’ll learn </h4>
-                <div className="uk-child-width-1-2@s" uk-grid="true">
+                <div className="uk-child-width-1-2@s" uk-grid="">
                   <div>
                     <ul className="list-2">
                       <li>Setting up the environment </li>
@@ -146,7 +144,7 @@ const Content = (props) => {
                       <ul className="course-curriculum-list">
                         <li> What is HTML <span> 23 min </span>
                         </li><li> What is a Web page? <span> 23 min </span> </li>
-                        <li> Your First Web Page <a href="#trailer-modal" uk-toggle="true"> Preview
+                        <li> Your First Web Page <a href="#trailer-modal" uk-toggle=""> Preview
                             </a> <span> 23 min </span>
                         </li>
                         <li> Brain Streak <span> 23 min </span> </li>
@@ -160,7 +158,7 @@ const Content = (props) => {
                       <ul className="course-curriculum-list">
                         <li> Headings <span> 23 min </span>
                         </li><li> Paragraphs <span> 23 min </span> </li>
-                        <li> Emphasis and Strong Tag <a href="#trailer-modal" uk-toggle="true"> Preview
+                        <li> Emphasis and Strong Tag <a href="#trailer-modal" uk-toggle=""> Preview
                             </a> <span> 23 min
                             </span>
                         </li>
@@ -175,7 +173,7 @@ const Content = (props) => {
                       {/* course-video-list */}
                       <ul className="course-curriculum-list">
                         <li> The paragraph tag <span> 23 min </span> </li>
-                        <li> The break tag <a href="#trailer-modal" uk-toggle="true"> Preview </a>
+                        <li> The break tag <a href="#trailer-modal" uk-toggle=""> Preview </a>
                           <span> 23 min </span> </li>
                         <li> Headings in HTML <span> 23 min </span> </li>
                         <li> Bold, Italics Underline <span> 23 min </span>
@@ -190,7 +188,7 @@ const Content = (props) => {
                       <ul className="course-curriculum-list">
                         <li> Something to Ponder<span> 23 min </span> </li>
                         <li> Tables <span> 23 min </span> </li>
-                        <li> HTML Entities <a href="#trailer-modal" uk-toggle="true"> Preview
+                        <li> HTML Entities <a href="#trailer-modal" uk-toggle=""> Preview
                             </a><span> 23 min </span> </li>
                         <li> HTML Iframes <span> 23 min </span> </li>
                         <li> Some important things <span> 23 min </span> </li>
@@ -202,7 +200,7 @@ const Content = (props) => {
               {/* course Faq*/}
               <li>
                 <h4 className="my-4"> Course Faq</h4>
-                <ul className="course-faq" uk-accordion="true">
+                <ul className="course-faq" uk-accordion="">
                   <li className="uk-open">
                     <a className="uk-accordion-title" > Html Introduction </a>
                     <div className="uk-accordion-content">
@@ -496,7 +494,7 @@ const Content = (props) => {
                       <div className="comments-avatar"><img alt="" src="assets/images/avatars/avatar-2.jpg"  />
                       </div>
                       <div className="comment-content">
-                        <form className="uk-grid-small" uk-grid="true">
+                        <form className="uk-grid-small" uk-grid="">
                           <div className="uk-width-1-2@s">
                             <label className="uk-form-label">Name</label>
                             <input className="uk-input" type="text" placeholder="Name" />

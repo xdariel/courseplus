@@ -1,5 +1,5 @@
 import React from 'react';
-const UkSection = () => {
+const DemoSection = () => {
 	return (
 		<div className="uk-section pt-0" id="demos">
 			<div className="container-small">
@@ -61,4 +61,4 @@ const UkSection = () => {
 		</div>);
 }
 
-export default UkSection;
+export default DemoSection;
